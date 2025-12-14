@@ -2,7 +2,7 @@
   "name": "shruti-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shrutiagrawal07.github.io",
+  "homepage": "https://shruti0706.github.io/myPortfolio",
   "main": "index.js",
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.11",
