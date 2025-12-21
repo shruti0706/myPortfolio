@@ -1,40 +1,41 @@
-import awsCCP from '../Assets/aws-ccp.png';
-import awsCDP from '../Assets/aws-cda.png';
-import githubFoundations from '../Assets/github-foundations.png';
+import udemy from '../Assets/udemy.png';
+import aide from '../Assets/Aide.png';
+import mckinsey from '../Assets/mckinsey.png';
 
 export const certifications = [
-  {
-    icon: 'aws',
-    name: 'AWS Certified Developer - Associate',
-    issuer: 'Amazon Web Services',
-    period: 'September 2024 - September 2027',
-    link: 'https://www.credly.com/badges/7db7a116-798b-4143-b5d3-4bc650ccc019/linked_in_profile',
-    image: awsCDP,
-  },
-  {
-    icon: 'aws',
-    name: 'AWS Certified Cloud Practitioner',
-    issuer: 'Amazon Web Services',
-    period: 'May 2023 - September 2027',
-    link: 'https://www.credly.com/badges/ec72467a-91a3-4a89-9551-e2ad94ed9327/linked_in_profile',
-    image: awsCCP,
-  },
-  {
-    icon: 'github',
-    name: 'GitHub Foundations',
-    issuer: 'GitHub',
-    period: 'May 2025 - March 2028',
-    link: 'https://www.credly.com/badges/20576d85-9b88-464f-acc6-ccfbaf247027/linked_in_profile',
-    image: githubFoundations,
-  },
   {
     icon: 'datastructures',
     name: 'Data Structures and Algorithms',
     issuer: 'Udemy',
     period: 'Nov 26, 2020',
     link: 'https://drive.google.com/file/d/10YS8SsV2Q32WIq1mGNFAHo04bonLsIx1/view?usp=sharing',
-    image: '',
+    image: udemy,
   },
+  {
+    icon: 'fullstack',
+    name: 'Full Stack Web Development',
+    issuer: 'Udemy',
+    period: 'Jan 2, 2022',
+    link: 'https://drive.google.com/file/d/1FyafxpmfsgYc8GdPuBo8GvKzgKFWj9wl/view?usp=sharing',
+    image: udemy,
+  },
+  {
+    icon: 'aide',
+    name: 'Aide Certification',
+    issuer: 'Valuelabs',
+    period: 'March 3, 2025',
+    link: 'https://drive.google.com/file/d/1nLr-p1m8sPx0nhhBxWM6CK-UncXw7eBQ/view?usp=sharing',
+    image: aide,
+  },
+  {
+    icon: 'mckinsey',
+    name: 'McKinsey Forward Program',
+    issuer: 'McKinsey.org',
+    period: 'July 7, 2025',
+    link: 'https://drive.google.com/file/d/1GFsxioG8qDmXH0L4NRI80t6uUvVTWP_I/view?usp=sharing',
+    image: mckinsey,
+  },
+
 ];
 
 

@@ -10,7 +10,7 @@ const Experience = React.lazy(() => import('./components/Experience'));
 // const Projects = React.lazy(() => import('./components/Projects'));
 const Skills = React.lazy(() => import('./components/Skills'));
 const Education = React.lazy(() => import('./components/Education'));
-// const Certifications = React.lazy(() => import('./components/Certifications'));
+const Certifications = React.lazy(() => import('./components/Certifications'));
 const Contact = React.lazy(() => import('./components/Contact'));
 
 function App() {
@@ -55,7 +55,7 @@ function App() {
           {/* <Projects /> */}
           <Skills />
           <Education />
-          {/* <Certifications /> */}
+          <Certifications />
           <Contact />
         </Suspense>
       </div>

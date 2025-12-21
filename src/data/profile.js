@@ -3,7 +3,7 @@ import shrutiPic from '../Assets/shruti-pic-7.png';
 
 export const profile = {
   name: "Shruti Agrawal",
-  titles: ["Software Engineer", "Full Stack Developer"],
+  titles: ["Software Engineer", "Full Stack Developer", "AI Enthusiast"],
   bio: [
     "I’m a software developer who enjoys building scalable, well-structured applications with a strong focus on clean code and performance.",
     "I have hands-on experience working with microservices and modern front-end frameworks like Angular, where I love turning complex business requirements into simple, user-friendly solutions.",
